@@ -1,0 +1,29 @@
+{
+  "name": "svg-web-icons",
+  "version": "1.0.0",
+  "description": "Include svg icons easily to your html file",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack --watch --mode=development -o dist/svg-web-icons.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaminmeerankutty/svg-web-icons.git"
+  },
+  "keywords": [
+    "svg",
+    "icons",
+    "html"
+  ],
+  "author": "Shamin Meerankutty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaminmeerankutty/svg-web-icons/issues"
+  },
+  "homepage": "https://github.com/shaminmeerankutty/svg-web-icons#readme",
+  "devDependencies": {
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1"
+  }
+}
